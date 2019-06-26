@@ -688,6 +688,30 @@ img {
   }
 }
 
+@media (max-height: 700px) {
+  #header-home .header-cover {
+    height: 24%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  #header-inner {
+    height: 10rem;
+  }
+  #header-inner .header-cover {
+    height: 24%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+}
+
 @media (max-height: 580px) {
   #header-home .header-content {
     padding-top: 3rem;
