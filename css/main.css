@@ -717,3 +717,50 @@ img {
     padding-top: 3rem;
   }
 }
+
+@media (max-width: 360px) {
+  #header-home .header-cover {
+    height: 25%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  #header-inner {
+    height: 10rem;
+  }
+  #header-inner .header-cover {
+    height: 25%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+}
+@media (max-width: 320px) {
+  #header-home .header-cover {
+    height: 28%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  #header-inner {
+    height: 10rem;
+  }
+  #header-inner .header-cover {
+    height: 28%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+}
